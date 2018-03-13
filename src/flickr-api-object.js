@@ -126,7 +126,7 @@ module.exports = (function() {
       return parseMethods(flickrOptions, methods, 0, finished);
     };
 
-    var mdir = "./data/flickr",
+    var mdir = "/tmp/flickr",
         filename = mdir + "/flickr.reflection.getMethods.json";
     if(fs.existsSync(filename)) {
       var methodListing = JSON.parse(fs.readFileSync(filename));
