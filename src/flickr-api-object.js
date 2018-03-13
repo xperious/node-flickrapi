@@ -24,7 +24,7 @@ module.exports = (function() {
     }
 
     var method_name = methods[method_idx],
-        mdir = "data/flickr/methods",
+        mdir = "/tmp/flickr/methods",
         filename = mdir + "/" + method_name + ".json";
 
     // advance the progress bar
